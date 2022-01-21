@@ -6,7 +6,7 @@
 }
 
 .vh100 {
-  background: #f7f7f7;
+  background: transparent;
   height: 100vh;
   color: var(--textDark);
 }
@@ -23,11 +23,17 @@
 
 .left,
 .right {
-  padding: 4.5rem;
+  padding: 4.5rem!important;
 }
 
 .left {
   border-right: 5px solid var(--background);
+}
+
+.mainTitle {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -2px;
 }
 
 .left .title {

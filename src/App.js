@@ -4,7 +4,7 @@ import 'bulma/css/bulma.min.css';
 
 const App = () => {
   return (
-    <div style={{background: "#f7f7f7"}}>
+    <div style={{background: "radial-gradient(yellow, green)"}}>
       <WelcomeSite />
     </div>
   )
