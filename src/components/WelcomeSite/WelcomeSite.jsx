@@ -11,27 +11,27 @@ const WelcomeSite = () => {
             <div className={"column " + styles.left}>
               <h1 className={"is-1 " + styles.mainTitle}>Bilinguo</h1>
               <h2 className={"subtitle is-4 " + styles.colored}>¡Aprende idiomas ya!</h2>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis ex deleniti aliquam tempora libero excepturi vero soluta odio optio sed.</p>
+              <p>Español, inglés, alemán, francés, ruso, finlandés, japonés, chino, coreano, árabe, persa, turco, entre otros.</p>
             </div>
             <div className={"column has-text-centered " + styles.right}>
-              <h1 className={"is-4 " + styles.mainTitle}>Sign up today</h1>
-              <p className={styles.description}>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+              <h1 className={"is-4 " + styles.mainTitle}>¡Matricúlate!</h1>
+              <p className={styles.description}>¡Nombre, correo y ya!</p>
               <form>
                 <div className={styles.field}>
                   <div className="control">
-                    <input className="input is-medium" type="text" placeholder="Name"/>
+                    <input className="input is-medium" type="text" placeholder="Nombre"/>
                   </div>
                 </div>
 
                 <div className={styles.field}>
                   <div className="control">
-                    <input className="input is-medium" type="email" placeholder="Email"/>
+                    <input className="input is-medium" type="email" placeholder="Correo"/>
                   </div>
                 </div>
-                <button className="button is-block is-primary is-fullwidth is-medium">Submit</button>
+                <button className="button is-block is-primary is-fullwidth is-medium">Inscribirme</button>
                 <br/>
                 <small>
-                  <em>Lorem ipsum dolor sit amet consectetur.</em>
+                  <em>Al inscribirte aceptas la política de privacidad.</em>
                 </small>
               </form>
             </div>
@@ -65,7 +65,7 @@ const WelcomeSite = () => {
             </div>
             <div className="level-right">
               <small className="level-item">
-                &copy; Super Cool Website. All Rights Reserved.
+                &copy; Marfullsen Humble Labs 2022.
               </small>
             </div>
           </nav>
